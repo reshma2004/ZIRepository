@@ -59,11 +59,11 @@
   padding: 10px 15px; /*Changed padding*/
   
 }
-.nav > li > a:hover,
+/*.nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
- background-color: #FF6600;  /* Changed background color*/
-}
+ background-color: #FF6600;  /* Changed background color
+}*/
 .masjid_icon{
 	background-image: url('../img/masjid_icon.png');
 	background-repeat: none;
@@ -72,9 +72,6 @@
 	width: 347px;
 	background-size: cover;
 	margin-bottom: 10px;
-}
-.container_grid{
-	margin-left: 18px;
 }
 .row.vdivide [class*='col-']:not(:last-child):after {
   	background: #333;
@@ -87,33 +84,8 @@
   	right: 0;
   	height: 19px;
 }
-.col-lg-12{
-	width: 100%;
-}
-dt{
-	padding: 7px;
-}
-hr{ 
-	border: 0; 
-	height: 1px; 
-	background: #333; 
-	margin-top: 7px;
-	width: 110%;
-	margin-bottom: -10px;
-}
 .footer{
 	margin-top: 15px;
-}
-.row{
-	margin-top: -10px;
-}
-.row a{
-	color: #333;
-}
-.row a:hover{
-  text-decoration: underline;
-  color: #337ab7;  /* Changed background color*/
- 
 }
 .navbar-fixed-bottom {
   bottom: 0px;
@@ -130,50 +102,6 @@ hr{
    background-image: url('../img/footer.png');
 	background-repeat: none;
 	background-size: cover;
-}
-
-@media (min-width: 768px) {
-  .navbar-collapse {
-    width: auto;
-    border-top: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-  }
-  .navbar-collapse.collapse {
-    display: block !important;
-    height: auto !important;
-    padding-bottom: 0;
-    overflow: visible !important;
-  }
-  .navbar-collapse.in {
-    overflow-y: visible;
-  }
-  .navbar-fixed-top .navbar-collapse,
-  .navbar-static-top .navbar-collapse,
-  .navbar-fixed-bottom .navbar-collapse {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-.navbar-fixed-top .navbar-collapse,
-.navbar-fixed-bottom .navbar-collapse {
-  max-height: 340px;
-}
-@media (max-device-width: 480px) and (orientation: landscape) {
-  .navbar-fixed-top .navbar-collapse,
-  .navbar-fixed-bottom .navbar-collapse {
-    max-height: 200px;
-  }
-}
-@media (min-width: 768px) {
-  .navbar {
-    border-radius: 4px;
-  }
-}
-@media (min-width: 768px) {
-  .navbar-header {
-    float: left;
-  }
 }
 
 
